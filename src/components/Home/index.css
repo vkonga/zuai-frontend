@@ -44,6 +44,10 @@
   
   .post-content {
     font-size: 16px;
+    width:300px;
+    height:6px;
+    overflow:hidden;
+    text-overflow: ellipsis;
   }
   
   .post-actions {
@@ -95,6 +99,10 @@
   
     .post-content {
       font-size: 14px;
+         width:300px;
+    height:6px;
+    overflow:hidden;
+    text-overflow: ellipsis;
     }
   
     .post-actions {
@@ -124,6 +132,10 @@
   
     .post-content {
       font-size: 15px;
+         width:300px;
+    height:6px;
+    overflow:hidden;
+    text-overflow: ellipsis;
     }
   
     .edit-button, .delete-button {
