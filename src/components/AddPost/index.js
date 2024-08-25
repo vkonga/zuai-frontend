@@ -61,6 +61,7 @@ class AddPost extends Component {
           value={title}
           onChange={this.onChangeTitle}
           required
+          wrap="soft"
         />
         <textarea
           placeholder="Enter Content"
@@ -69,6 +70,7 @@ class AddPost extends Component {
           value={content}
           onChange={this.onChangeContent}
           required
+          wrap="soft"
         />
         <button className='form-button' type="submit">ADD</button>
       </form>
