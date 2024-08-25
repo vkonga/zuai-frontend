@@ -64,7 +64,7 @@ class AddPost extends Component {
         />
         <textarea
           placeholder="Enter Content"
-          rows={10}
+          
           cols={40}
           value={content}
           onChange={this.onChangeContent}
