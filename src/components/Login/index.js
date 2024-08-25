@@ -46,6 +46,11 @@ class Login extends Component {
         }
     }
 
+    onClickSignup = () => {
+        const {history} = this.props
+        history.replace("/signup")
+    }
+
 
     render() {
         const {username,password,errorMsg} = this.state
@@ -62,6 +67,7 @@ class Login extends Component {
                 </div>
                 <button className='form-button' type="submit" >LOGIN</button>
                 {errorMsg && <p>{errorMsg}</p>}
+                <p>New user <span className='span-signup' onClick={this.onClickSignup} >Signup</span></p>
             </form>
         )
     }

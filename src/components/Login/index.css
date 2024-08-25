@@ -36,3 +36,7 @@
     border: 0px;
     cursor: pointer;
 }
+.span-signup{
+    text-decoration: underline;
+    cursor: pointer;
+}
